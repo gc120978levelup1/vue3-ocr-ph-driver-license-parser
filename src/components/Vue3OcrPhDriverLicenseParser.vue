@@ -137,6 +137,7 @@ const openFile = (xfile: Blob) => {
 };
 
 const openURL = (URL) => {
+    if (props.imageDOM) props.imageDOM.src = URL;
     startOCR(URL, null, props.textOutput);
 }
 
