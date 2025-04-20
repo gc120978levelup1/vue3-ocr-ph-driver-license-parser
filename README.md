@@ -36,6 +36,8 @@ ex.
 
 Note: normally data.file is saved using S3 bucket and the rest will be saved in database
 
+### Sample Code
+
 ```sh
 
 <script setup lang="ts">
